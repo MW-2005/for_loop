@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Mya Walker
+# date: 7/16/21
 
 # -------------------- Section 1 -------------------- #
 
@@ -25,6 +25,11 @@ print(
 #
 # Write Code Below #
 
+for n in range(5):
+    print('Mya')
+
+print()
+print()
 
 # 2 - for Loop | Printing i
 #   a. Create a for loop that runs 5 times.
@@ -40,6 +45,11 @@ print(
 #
 # Write Code Below #
 
+for i in range(5):
+    print(i)
+
+print()
+print()
 
 # 3 - for Loop | Running According to the User
 #   a. Prompt the user for input in the form of an integer. Save it to a variable. This will be used as the argument
@@ -59,6 +69,12 @@ print(
 #   $$$$$$
 #
 # Write Code Below #
+
+n = int(input('Enter a whole number: '))
+s = input('Enter a symbole: ')
+
+for i in range(n):
+    print(s*i)
 
 
 # ---------- Part 2 | Direct Access ---------- #
@@ -83,6 +99,19 @@ print(
 #
 # Write Code Below #
 
+print()
+print()
+
+name ='Mya'
+for text in name:
+    print(text)
+  
+print()
+print()
+#text = 'hello my dear friend!'
+#for char in text:
+ #   print(char)
+
 
 # 2 - for Loop | Printing the User's Name
 #   a. Prompt input from the user in the form of their name. Save to a variable named name.
@@ -105,7 +134,10 @@ print(
 #   e
 #
 # Write Code Below #
-
+name = (input('Enter your name: '))
+print()
+for text in name:
+    print(text)
 
 # ---------- Part 3 | range() variations ---------- #
 print(
